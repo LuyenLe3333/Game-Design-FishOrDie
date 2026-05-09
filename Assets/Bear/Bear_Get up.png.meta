@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 457ded2d81c010aad9928ae12f57e055
+guid: f46b82c82d53d99c38057f415e0a37bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5475115915694180838
-    second: Fisherman_fish_0
+      213: 7922724369849587566
+    second: Bear_Get up_0
   - first:
-      213: -6225405426302066292
-    second: Fisherman_fish_1
+      213: -8654111986257777530
+    second: Bear_Get up_1
   - first:
-      213: 3625021765658033917
-    second: Fisherman_fish_2
+      213: -2266488435532685787
+    second: Bear_Get up_2
   - first:
-      213: 8420130169546912979
-    second: Fisherman_fish_3
+      213: -7460101887788803960
+    second: Bear_Get up_3
+  - first:
+      213: 7866418508727432188
+    second: Bear_Get up_4
+  - first:
+      213: -6671437998986984329
+    second: Bear_Get up_5
+  - first:
+      213: -8486076014154115592
+    second: Bear_Get up_6
+  - first:
+      213: 1467754240868347458
+    second: Bear_Get up_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fisherman_fish_0
+      name: Bear_Get up_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 37
-        height: 35
+        x: 12
+        y: 7
+        width: 55
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a16f5f4451b7404b0800000000000000
-      internalID: -5475115915694180838
+      spriteID: e67173686db23fd60800000000000000
+      internalID: 7922724369849587566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_fish_1
+      name: Bear_Get up_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 0
-        width: 37
-        height: 35
+        x: 140
+        y: 7
+        width: 55
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c81e9769fbaea99a0800000000000000
-      internalID: -6225405426302066292
+      spriteID: 68ca7acfffa66e780800000000000000
+      internalID: -8654111986257777530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_fish_2
+      name: Bear_Get up_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 0
-        width: 37
-        height: 35
+        x: 281
+        y: 7
+        width: 68
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfe3b15f61aae4230800000000000000
-      internalID: 3625021765658033917
+      spriteID: 52e1b88b6c0db80e0800000000000000
+      internalID: -2266488435532685787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_fish_3
+      name: Bear_Get up_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 0
-        width: 37
-        height: 35
+        x: 413
+        y: 7
+        width: 69
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +202,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d4b46607cf4ad470800000000000000
-      internalID: 8420130169546912979
+      spriteID: 888902ebbd4687890800000000000000
+      internalID: -7460101887788803960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Get up_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 7
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3b143a4f12b2d60800000000000000
+      internalID: 7866418508727432188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Get up_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 7
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77486599c7a4a63a0800000000000000
+      internalID: -6671437998986984329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Get up_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 7
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5916783d66b3a80800000000000000
+      internalID: -8486076014154115592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Get up_7
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 7
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ee780a4b28e5410800000000000000
+      internalID: 1467754240868347458
       vertices: []
       indices: 
       edges: []
@@ -210,10 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fisherman_fish_0: -5475115915694180838
-      Fisherman_fish_1: -6225405426302066292
-      Fisherman_fish_2: 3625021765658033917
-      Fisherman_fish_3: 8420130169546912979
+      Bear_Get up_0: 7922724369849587566
+      Bear_Get up_1: -8654111986257777530
+      Bear_Get up_2: -2266488435532685787
+      Bear_Get up_3: -7460101887788803960
+      Bear_Get up_4: 7866418508727432188
+      Bear_Get up_5: -6671437998986984329
+      Bear_Get up_6: -8486076014154115592
+      Bear_Get up_7: 1467754240868347458
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
