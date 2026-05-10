@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: f2590375abedc7430bb347c225929b2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8386542577987168594
+    second: Animated Water 192x192-Sheet_0
+  - first:
+      213: 1876524680294217188
+    second: Animated Water 192x192-Sheet_1
+  - first:
+      213: 2936994652763486752
+    second: Animated Water 192x192-Sheet_2
+  - first:
+      213: -7975787884222330560
+    second: Animated Water 192x192-Sheet_3
+  - first:
+      213: -3516068946974131797
+    second: Animated Water 192x192-Sheet_4
+  - first:
+      213: 6926835522507702782
+    second: Animated Water 192x192-Sheet_5
+  - first:
+      213: 1537191207075047944
+    second: Animated Water 192x192-Sheet_6
+  - first:
+      213: 6570654238177134419
+    second: Animated Water 192x192-Sheet_7
+  - first:
+      213: 8363617273222039867
+    second: Animated Water 192x192-Sheet_8
+  - first:
+      213: 7820523230899098350
+    second: Animated Water 192x192-Sheet_9
+  - first:
+      213: 4794363202086088586
+    second: Animated Water 192x192-Sheet_10
+  - first:
+      213: -5753412826124613377
+    second: Animated Water 192x192-Sheet_11
+  - first:
+      213: -4576409334865321789
+    second: Animated Water 192x192-Sheet_12
+  - first:
+      213: -1740388435782111399
+    second: Animated Water 192x192-Sheet_13
+  - first:
+      213: -740164368202161722
+    second: Animated Water 192x192-Sheet_14
+  - first:
+      213: 745469052965766755
+    second: Animated Water 192x192-Sheet_15
+  - first:
+      213: 920372818630026728
+    second: Animated Water 192x192-Sheet_16
+  - first:
+      213: 385150474968288926
+    second: Animated Water 192x192-Sheet_17
+  - first:
+      213: 6952571202718082841
+    second: Animated Water 192x192-Sheet_18
+  - first:
+      213: 6660316005560897585
+    second: Animated Water 192x192-Sheet_19
+  - first:
+      213: -6873150625316550558
+    second: Animated Water 192x192-Sheet_20
+  - first:
+      213: -213024942071331112
+    second: Animated Water 192x192-Sheet_21
+  - first:
+      213: 6089791718178051319
+    second: Animated Water 192x192-Sheet_22
+  - first:
+      213: -6287099739377730859
+    second: Animated Water 192x192-Sheet_23
+  - first:
+      213: -5395614877758947883
+    second: Animated Water 192x192-Sheet_24
+  - first:
+      213: -7926150654520618180
+    second: Animated Water 192x192-Sheet_25
+  - first:
+      213: 2777638627884901529
+    second: Animated Water 192x192-Sheet_26
+  - first:
+      213: 8866742798070158135
+    second: Animated Water 192x192-Sheet_27
+  - first:
+      213: 7922199567305460870
+    second: Animated Water 192x192-Sheet_28
+  - first:
+      213: 6284525201722027987
+    second: Animated Water 192x192-Sheet_29
+  - first:
+      213: -7400373644870995075
+    second: Animated Water 192x192-Sheet_30
+  - first:
+      213: -6882878246573479651
+    second: Animated Water 192x192-Sheet_31
+  - first:
+      213: 1770021560206717543
+    second: Animated Water 192x192-Sheet_32
+  - first:
+      213: 2522268704458513962
+    second: Animated Water 192x192-Sheet_33
+  - first:
+      213: 8104539798620947710
+    second: Animated Water 192x192-Sheet_34
+  - first:
+      213: -5436772566982090891
+    second: Animated Water 192x192-Sheet_35
+  - first:
+      213: -4853351399646079564
+    second: Animated Water 192x192-Sheet_36
+  - first:
+      213: 6014579530833290190
+    second: Animated Water 192x192-Sheet_37
+  - first:
+      213: 8449270566940629670
+    second: Animated Water 192x192-Sheet_38
+  - first:
+      213: -8781274041096090040
+    second: Animated Water 192x192-Sheet_39
+  - first:
+      213: 6922615381456470401
+    second: Animated Water 192x192-Sheet_40
+  - first:
+      213: 6402574577995664512
+    second: Animated Water 192x192-Sheet_41
+  - first:
+      213: -3667723010312143345
+    second: Animated Water 192x192-Sheet_42
+  - first:
+      213: 1010851544803827474
+    second: Animated Water 192x192-Sheet_43
+  - first:
+      213: 5578923532336559314
+    second: Animated Water 192x192-Sheet_44
+  - first:
+      213: 5642641804556156771
+    second: Animated Water 192x192-Sheet_45
+  - first:
+      213: -8359856118608892477
+    second: Animated Water 192x192-Sheet_46
+  - first:
+      213: -7996960425380076850
+    second: Animated Water 192x192-Sheet_47
+  - first:
+      213: 104134690158029887
+    second: Animated Water 192x192-Sheet_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 181
+        width: 380
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6d26985f30d9b80800000000000000
+      internalID: -8386542577987168594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 524
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5b0352141ca0a10800000000000000
+      internalID: 1876524680294217188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 528
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a7039631d42c820800000000000000
+      internalID: 2936994652763486752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 528
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04940154d2f405190800000000000000
+      internalID: -7975787884222330560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 452
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba933d1fbe9643fc0800000000000000
+      internalID: -3516068946974131797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 285
+        width: 198
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef101a03530112060800000000000000
+      internalID: 6926835522507702782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 485
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80aef892243355510800000000000000
+      internalID: 1537191207075047944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 498
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35786708737af2b50800000000000000
+      internalID: 6570654238177134419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 504
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3988bff899811470800000000000000
+      internalID: 8363617273222039867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 455
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee25e6f8174188c60800000000000000
+      internalID: 7820523230899098350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 206
+        width: 415
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fab804eeff88240800000000000000
+      internalID: 4794363202086088586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 484
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff88aac7485c720b0800000000000000
+      internalID: -5753412826124613377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 389
+        width: 58
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c02290f4f35d70c0800000000000000
+      internalID: -4576409334865321789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 442
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f620a40f5e8d7e0800000000000000
+      internalID: -1740388435782111399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 419
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1a8edbd686ab5f0800000000000000
+      internalID: -740164368202161722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 442
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366421d6720785a00800000000000000
+      internalID: 745469052965766755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 438
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e52e53c332d5cc00800000000000000
+      internalID: 920372818630026728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 429
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ece8df054585500800000000000000
+      internalID: 385150474968288926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 99
+        width: 366
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9172f9d2cae7c7060800000000000000
+      internalID: 6952571202718082841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 402
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1305e438e123e6c50800000000000000
+      internalID: 6660316005560897585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 399
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268c04afbe9ad90a0800000000000000
+      internalID: -6873150625316550558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 386
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d64a8f91fe2b0df0800000000000000
+      internalID: -213024942071331112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 360
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f45e167d49438450800000000000000
+      internalID: 6089791718178051319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da70f6f81cbfb8a0800000000000000
+      internalID: -6287099739377730859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 367
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd7d5a1bdcee15b0800000000000000
+      internalID: -5395614877758947883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 363
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33911969f7a00290800000000000000
+      internalID: -7926150654520618180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2643
+        y: 164
+        width: 418
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994ab719d972c8620800000000000000
+      internalID: 2777638627884901529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 252
+        width: 280
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73399b9c89ffc0b70800000000000000
+      internalID: 8866742798070158135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3411
+        y: 331
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ccef8688e41fd60800000000000000
+      internalID: 7922199567305460870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 327
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfa1a6cf5e173750800000000000000
+      internalID: 6284525201722027987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3962
+        y: 291
+        width: 84
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d733d4cf0679c4990800000000000000
+      internalID: -7400373644870995075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 4048
+        y: 294
+        width: 145
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1969b8a3ba1b70a0800000000000000
+      internalID: -6882878246573479651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 4061
+        y: 288
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76277e42b31609810800000000000000
+      internalID: 1770021560206717543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 4103
+        y: 278
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e955de506e00320800000000000000
+      internalID: 2522268704458513962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4146
+        y: 284
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef441d4d10c197070800000000000000
+      internalID: 8104539798620947710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 274
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f9174d724bc84b0800000000000000
+      internalID: -5436772566982090891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 255
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b553fdbd9e65acb0800000000000000
+      internalID: -4853351399646079564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 232
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec367a87734187350800000000000000
+      internalID: 6014579530833290190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 232
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aad8a180d6d14570800000000000000
+      internalID: 8449270566940629670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4064
+        y: 229
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ecb19e8c5a22680800000000000000
+      internalID: -8781274041096090040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 219
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1814e580302121060800000000000000
+      internalID: 6922615381456470401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 213
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc06908a38ad850800000000000000
+      internalID: 6402574577995664512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 173
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e71d3ca51a91dc0800000000000000
+      internalID: -3667723010312143345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 199
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fdfa0df14470e00800000000000000
+      internalID: 1010851544803827474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 197
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4fcfde4615c6d40800000000000000
+      internalID: 5578923532336559314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 157
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fb65343d0be4e40800000000000000
+      internalID: 5642641804556156771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 137
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cde0fc0723dbfb80800000000000000
+      internalID: -8359856118608892477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 105
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec22d52ecd6150190800000000000000
+      internalID: -7996960425380076850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water 192x192-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 128
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c2aafe2f5f17100800000000000000
+      internalID: 104134690158029887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated Water 192x192-Sheet_0: -8386542577987168594
+      Animated Water 192x192-Sheet_1: 1876524680294217188
+      Animated Water 192x192-Sheet_10: 4794363202086088586
+      Animated Water 192x192-Sheet_11: -5753412826124613377
+      Animated Water 192x192-Sheet_12: -4576409334865321789
+      Animated Water 192x192-Sheet_13: -1740388435782111399
+      Animated Water 192x192-Sheet_14: -740164368202161722
+      Animated Water 192x192-Sheet_15: 745469052965766755
+      Animated Water 192x192-Sheet_16: 920372818630026728
+      Animated Water 192x192-Sheet_17: 385150474968288926
+      Animated Water 192x192-Sheet_18: 6952571202718082841
+      Animated Water 192x192-Sheet_19: 6660316005560897585
+      Animated Water 192x192-Sheet_2: 2936994652763486752
+      Animated Water 192x192-Sheet_20: -6873150625316550558
+      Animated Water 192x192-Sheet_21: -213024942071331112
+      Animated Water 192x192-Sheet_22: 6089791718178051319
+      Animated Water 192x192-Sheet_23: -6287099739377730859
+      Animated Water 192x192-Sheet_24: -5395614877758947883
+      Animated Water 192x192-Sheet_25: -7926150654520618180
+      Animated Water 192x192-Sheet_26: 2777638627884901529
+      Animated Water 192x192-Sheet_27: 8866742798070158135
+      Animated Water 192x192-Sheet_28: 7922199567305460870
+      Animated Water 192x192-Sheet_29: 6284525201722027987
+      Animated Water 192x192-Sheet_3: -7975787884222330560
+      Animated Water 192x192-Sheet_30: -7400373644870995075
+      Animated Water 192x192-Sheet_31: -6882878246573479651
+      Animated Water 192x192-Sheet_32: 1770021560206717543
+      Animated Water 192x192-Sheet_33: 2522268704458513962
+      Animated Water 192x192-Sheet_34: 8104539798620947710
+      Animated Water 192x192-Sheet_35: -5436772566982090891
+      Animated Water 192x192-Sheet_36: -4853351399646079564
+      Animated Water 192x192-Sheet_37: 6014579530833290190
+      Animated Water 192x192-Sheet_38: 8449270566940629670
+      Animated Water 192x192-Sheet_39: -8781274041096090040
+      Animated Water 192x192-Sheet_4: -3516068946974131797
+      Animated Water 192x192-Sheet_40: 6922615381456470401
+      Animated Water 192x192-Sheet_41: 6402574577995664512
+      Animated Water 192x192-Sheet_42: -3667723010312143345
+      Animated Water 192x192-Sheet_43: 1010851544803827474
+      Animated Water 192x192-Sheet_44: 5578923532336559314
+      Animated Water 192x192-Sheet_45: 5642641804556156771
+      Animated Water 192x192-Sheet_46: -8359856118608892477
+      Animated Water 192x192-Sheet_47: -7996960425380076850
+      Animated Water 192x192-Sheet_48: 104134690158029887
+      Animated Water 192x192-Sheet_5: 6926835522507702782
+      Animated Water 192x192-Sheet_6: 1537191207075047944
+      Animated Water 192x192-Sheet_7: 6570654238177134419
+      Animated Water 192x192-Sheet_8: 8363617273222039867
+      Animated Water 192x192-Sheet_9: 7820523230899098350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

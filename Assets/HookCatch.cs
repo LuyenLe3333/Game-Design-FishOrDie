@@ -6,6 +6,8 @@ public class HookCatch : MonoBehaviour
     public AudioSource catchSound;
     public float currentPitch = 0.4f;
 
+    public bool HasFish => caughtFish != null;
+
     private GameObject caughtFish = null;
 
     void OnTriggerEnter2D(Collider2D other)

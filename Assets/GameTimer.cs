@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class GameTimer : MonoBehaviour
 {
-    public float timeRemaining = 30f;
+    public float timeRemaining = 10f;
     public TextMeshProUGUI timerText;
 
     private bool isRunning = true;
@@ -27,7 +27,7 @@ public class GameTimer : MonoBehaviour
 
     void UpdateTimerUI()
     {
-        timerText.text = "Time until you DIE: " + Mathf.Ceil(timeRemaining).ToString();
+        timerText.text = "Time until you <color=red>DIE</color>: <color=red>" + Mathf.Ceil(timeRemaining).ToString() + "</color>";
     }
 
     void LoseGame()
