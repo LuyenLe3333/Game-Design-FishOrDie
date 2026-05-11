@@ -13,12 +13,18 @@ public class ScoreManager : MonoBehaviour
     // Set this in Inspector (last level number)
     public int finalLevelIndex = 2;
 
+    [Header("Spawner Mode")]
+    [Tooltip("Enable when fish are spawned dynamically. Win by reaching targetScore instead of catching all fish.")]
+    public bool spawnerMode = false;
+    public int targetScore = 10;
+
     void Start()
     {
+        score = 0;
         gameEnded = false;
 
-        //Automatically count fish in scene
-        totalFish = GameObject.FindGameObjectsWithTag("Fish").Length;
+        if (!spawnerMode)
+            totalFish = GameObject.FindGameObjectsWithTag("Fish").Length;
 
         UpdateScore();
     }
@@ -28,14 +34,15 @@ public class ScoreManager : MonoBehaviour
         if (gameEnded) return;
 
         score += amount;
-        totalFish--;
+
+        if (!spawnerMode)
+            totalFish--;
 
         UpdateScore();
 
-        if (totalFish <= 0)
-        {
+        bool winConditionMet = spawnerMode ? score >= targetScore : totalFish <= 0;
+        if (winConditionMet)
             LoadNextLevel();
-        }
     }
 
     void UpdateScore()
@@ -49,15 +56,17 @@ public class ScoreManager : MonoBehaviour
 
         gameEnded = true;
 
+        if (spawnerMode)
+        {
+            SceneManager.LoadScene("GameOverScene");
+            return;
+        }
+
         int currentIndex = SceneManager.GetActiveScene().buildIndex;
 
         if (currentIndex >= finalLevelIndex)
-        {
             SceneManager.LoadScene("GameOverScene");
-        }
         else
-        {
             SceneManager.LoadScene(currentIndex + 1);
-        }
     }
 }

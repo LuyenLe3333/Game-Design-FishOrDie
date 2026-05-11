@@ -34,6 +34,7 @@ public class FishingRod : MonoBehaviour
     private Vector2 hookVelocity;
     private Vector3 hookHome;
     private Rigidbody2D hookRb;
+    private HookCatch hookCatch;
 
     void Awake()
     {
@@ -41,6 +42,7 @@ public class FishingRod : MonoBehaviour
         hookRb = hook.GetComponent<Rigidbody2D>();
         if (hookRb != null) hookRb.isKinematic = true;
         hookHome = hook.position;
+        hookCatch = hook.GetComponent<HookCatch>();
     }
 
     void Update()
@@ -141,6 +143,7 @@ public class FishingRod : MonoBehaviour
             MoveHook(target);
             if (reelSound != null) reelSound.Stop();
             state = State.AtRod;
+            hookCatch?.TryDeliverFish();
             return;
         }
 

@@ -3,12 +3,20 @@ using UnityEngine;
 public class HookCatch : MonoBehaviour
 {
     public ScoreManager scoreManager;
+    public GameTimer gameTimer;
+    public float timeBonus = 5f;
     public AudioSource catchSound;
-    public float currentPitch = 0.4f;
+
+    [Header("Escape Timer")]
+    public float escapeTime = 4f;
 
     public bool HasFish => caughtFish != null;
+    public bool FishDelivered { get; private set; }
 
     private GameObject caughtFish = null;
+    private float escapeTimer = 0f;
+    private float deliveredTimer = 0f;
+    private const float deliveredDuration = 0.8f;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -19,31 +27,61 @@ public class HookCatch : MonoBehaviour
 
             FishMovement movement = caughtFish.GetComponent<FishMovement>();
             if (movement != null)
-            {
                 movement.enabled = false;
 
-            }
+            escapeTimer = escapeTime;
 
             if (catchSound != null)
-            {
-                catchSound.pitch = currentPitch;
                 catchSound.Play();
-            }
         }
     }
 
     void Update()
     {
-        //checks if fish reached fisherman!!
-        if (caughtFish != null && transform.position.y >= 2.7f)
+        if (FishDelivered)
         {
-            scoreManager.AddScore(1);
-
-            currentPitch -= 0.20f;
-            currentPitch = Mathf.Clamp(currentPitch, 0.1f, 1.5f);
-
-            Destroy(caughtFish);
-            caughtFish = null;
+            deliveredTimer -= Time.deltaTime;
+            if (deliveredTimer <= 0f)
+                FishDelivered = false;
         }
+
+        if (caughtFish != null)
+        {
+            escapeTimer -= Time.deltaTime;
+            if (escapeTimer <= 0f)
+                ReleaseFish();
+        }
+    }
+
+    void ReleaseFish()
+    {
+        if (caughtFish == null) return;
+
+        caughtFish.transform.SetParent(null);
+
+        FishMovement movement = caughtFish.GetComponent<FishMovement>();
+        if (movement != null)
+            movement.enabled = true;
+
+        caughtFish = null;
+    }
+
+    public void TryDeliverFish()
+    {
+        if (caughtFish == null) return;
+
+        if (scoreManager != null)
+            scoreManager.AddScore(1);
+        else
+            Debug.LogWarning("HookCatch: scoreManager is not assigned!");
+
+        if (gameTimer != null)
+            gameTimer.AddTime(timeBonus);
+
+        Destroy(caughtFish);
+        caughtFish = null;
+
+        FishDelivered = true;
+        deliveredTimer = deliveredDuration;
     }
 }

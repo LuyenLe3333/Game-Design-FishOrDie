@@ -30,6 +30,12 @@ public class GameTimer : MonoBehaviour
         timerText.text = "Time until you <color=red>DIE</color>: <color=red>" + Mathf.Ceil(timeRemaining).ToString() + "</color>";
     }
 
+    public void AddTime(float seconds)
+    {
+        timeRemaining += seconds;
+        isRunning = true;
+    }
+
     void LoseGame()
     {
         if (ScoreManager.gameEnded) return;
