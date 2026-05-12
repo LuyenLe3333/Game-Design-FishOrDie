@@ -1,10 +1,11 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
 public class GameTimer : MonoBehaviour
 {
-    public float timeRemaining = 10f;
+    public float timeRemaining = 30f;
     public TextMeshProUGUI timerText;
 
     private bool isRunning = true;
@@ -40,6 +41,12 @@ public class GameTimer : MonoBehaviour
     {
         if (ScoreManager.gameEnded) return;
         ScoreManager.gameEnded = true;
+        StartCoroutine(LoseGameDelay());
+    }
+
+    IEnumerator LoseGameDelay()
+    {
+        yield return new WaitForSeconds(4f);
         SceneManager.LoadScene("YouLoseScene");
     }
 }

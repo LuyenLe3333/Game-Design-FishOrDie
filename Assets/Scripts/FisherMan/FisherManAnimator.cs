@@ -7,8 +7,10 @@ public class FisherManAnimator : MonoBehaviour
     public HookCatch hookCatch;
     public GameObject hookObject;
     public LineRenderer fishingLine;
+    public GameTimer gameTimer;
 
     private Animator animator;
+    private bool deathTriggered = false;
 
     static readonly int HookOutHash = Animator.StringToHash("hookOut");
 
@@ -23,6 +25,15 @@ public class FisherManAnimator : MonoBehaviour
 
     void Update()
     {
+        if (!deathTriggered && gameTimer != null && gameTimer.timeRemaining <= 0)
+        {
+            deathTriggered = true;
+            animator.Play("FisherManDeath", 0, 0f);
+            return;
+        }
+
+        if (deathTriggered) return;
+
         if (fishingRod == null) return;
 
         bool hookOut = fishingRod.IsHookOut;

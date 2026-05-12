@@ -5,6 +5,7 @@ public class SpeechBubble : MonoBehaviour
 {
     public float displayDuration = 3f;
     public float fadeDuration = 0.4f;
+    public bool showOnStart = true;
 
     private CanvasGroup canvasGroup;
 
@@ -15,6 +16,13 @@ public class SpeechBubble : MonoBehaviour
             canvasGroup = gameObject.AddComponent<CanvasGroup>();
 
         canvasGroup.alpha = 0f;
+
+        if (showOnStart)
+            StartCoroutine(ShowAndHide());
+    }
+
+    public void Show()
+    {
         StartCoroutine(ShowAndHide());
     }
 
