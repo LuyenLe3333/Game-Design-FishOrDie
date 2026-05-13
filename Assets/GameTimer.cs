@@ -9,6 +9,7 @@ public class GameTimer : MonoBehaviour
     public TextMeshProUGUI timerText;
 
     private bool isRunning = true;
+    private bool isPaused = false;
 
     void Update()
     {
@@ -34,7 +35,21 @@ public class GameTimer : MonoBehaviour
     public void AddTime(float seconds)
     {
         timeRemaining += seconds;
-        isRunning = true;
+        if (!isPaused)
+            isRunning = true;
+    }
+
+    public void Pause()
+    {
+        isPaused = true;
+        isRunning = false;
+    }
+
+    public void Resume()
+    {
+        isPaused = false;
+        if (!ScoreManager.gameEnded)
+            isRunning = true;
     }
 
     void LoseGame()

@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 85662678}
   - component: {fileID: 85662677}
   - component: {fileID: 85662679}
+  - component: {fileID: 85662680}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -500,6 +501,8 @@ MonoBehaviour:
   finalLevelIndex: 2
   spawnerMode: 1
   targetScore: 20
+  endlessMode: 0
+  startScore: 0
 --- !u!114 &85662678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,6 +532,26 @@ MonoBehaviour:
   fishingRod: {fileID: 35244388}
   meterContainer: {fileID: 1388253301}
   fill: {fileID: 552327455}
+--- !u!114 &85662680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85662672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b48c1cf2bfc391898d4df2a3314834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IntermissionManager
+  intermissionBubble: {fileID: 2014934936}
+  timerTextObject: {fileID: 186503542}
+  scoreTextObject: {fileID: 197775465}
+  gameTimer: {fileID: 85662678}
+  hookCatch: {fileID: 1397622086}
+  triggerScore: 20
+  endlessTimerReset: 30
+  endlessTimeBonus: 3
 --- !u!1 &90416012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,8 +1560,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.2374, y: 44.9419}
-  m_SizeDelta: {x: 69.2129, y: 10.1151}
+  m_AnchoredPosition: {x: 231.0791, y: 224.709}
+  m_SizeDelta: {x: 275.8492, y: 50.575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &677788298
 MonoBehaviour:
@@ -2244,8 +2267,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.1, y: -27.755}
-  m_SizeDelta: {x: 46.2504, y: 16.191}
+  m_AnchoredPosition: {x: -120.5, y: -138.775}
+  m_SizeDelta: {x: 231.252, y: 80.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178907684
 MonoBehaviour:
@@ -3066,6 +3089,115 @@ RectTransform:
   m_AnchoredPosition: {x: 0.529, y: 0.27}
   m_SizeDelta: {x: 100.3835, y: 32.9508}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1483816780
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PressStart2P-Regular SDF Material (Instance)
+  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: -7614384701079016388, guid: 522cec2f0d30b2510be2766582a27312, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Diffuse: 0.5
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 6
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _Sharpness: 0
+    - _SpecularPower: 2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 512
+    - _TextureWidth: 512
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!21 &1484213393
 Material:
   serializedVersion: 8
@@ -3449,8 +3581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24.4, y: -27.755}
-  m_SizeDelta: {x: 46.2504, y: 16.191}
+  m_AnchoredPosition: {x: 122, y: -138.775}
+  m_SizeDelta: {x: 231.252, y: 80.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1666296643
 MonoBehaviour:
@@ -3568,8 +3700,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45.874}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 81, y: 39.9}
-  m_SizeDelta: {x: 9.1913, y: 9.6976}
+  m_AnchoredPosition: {x: 352, y: 199}
+  m_SizeDelta: {x: 22.9244, y: 23.855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1697175753
 MonoBehaviour:
@@ -3813,7 +3945,7 @@ RectTransform:
   m_GameObject: {fileID: 2014934936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 677788297}
@@ -3826,7 +3958,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014934938
 MonoBehaviour:
@@ -3900,8 +4032,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000059605, y: 12.978}
-  m_SizeDelta: {x: 88.9828, y: 44.146}
+  m_AnchoredPosition: {x: 0, y: 64.89}
+  m_SizeDelta: {x: 444.914, y: 220.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2048523403
 MonoBehaviour:
@@ -3926,10 +4058,12 @@ MonoBehaviour:
   m_text: KEEP FEEDING ME HUMAN...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 522cec2f0d30b2510be2766582a27312, type: 2}
-  m_sharedMaterial: {fileID: 4252817100269248338, guid: 522cec2f0d30b2510be2766582a27312, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
+  m_sharedMaterial: {fileID: 1483816780}
+  m_fontSharedMaterials:
+  - {fileID: 1483816780}
+  m_fontMaterial: {fileID: 1483816780}
+  m_fontMaterials:
+  - {fileID: 1483816780}
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
@@ -3950,8 +4084,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11
-  m_fontSizeBase: 11
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

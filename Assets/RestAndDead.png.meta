@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: af4d005ef72a18f96ba92ca463f19ba0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -66318749755504688
+    second: RestAndDead_0
+  - first:
+      213: -6701720843823702097
+    second: RestAndDead_1
+  - first:
+      213: 1873236177836846848
+    second: RestAndDead_2
+  - first:
+      213: 5692121605068802464
+    second: RestAndDead_3
+  - first:
+      213: -2182734090401835766
+    second: RestAndDead_4
+  - first:
+      213: 3426528103467187275
+    second: RestAndDead_5
+  - first:
+      213: -391008651300169618
+    second: RestAndDead_6
+  - first:
+      213: -1930287377026490852
+    second: RestAndDead_7
+  - first:
+      213: -1894805534793593432
+    second: RestAndDead_8
+  - first:
+      213: 4623708709750830855
+    second: RestAndDead_9
+  - first:
+      213: -8827261837583235443
+    second: RestAndDead_10
+  - first:
+      213: 1645644992795921055
+    second: RestAndDead_11
+  - first:
+      213: 3735253923304094116
+    second: RestAndDead_12
+  - first:
+      213: -1234456909221578446
+    second: RestAndDead_13
+  - first:
+      213: 637914485717010276
+    second: RestAndDead_14
+  - first:
+      213: 7567210841935660661
+    second: RestAndDead_15
+  - first:
+      213: 1546286269886761681
+    second: RestAndDead_16
+  - first:
+      213: -3314013784584603157
+    second: RestAndDead_17
+  - first:
+      213: 5738261479705789869
+    second: RestAndDead_18
+  - first:
+      213: -2506626760874326154
+    second: RestAndDead_19
+  - first:
+      213: 8308215173714167214
+    second: RestAndDead_20
+  - first:
+      213: -7490160788645245691
+    second: RestAndDead_21
+  - first:
+      213: 2090532666998177695
+    second: RestAndDead_22
+  - first:
+      213: 7365088441922213154
+    second: RestAndDead_23
+  - first:
+      213: 893973926166004284
+    second: RestAndDead_24
+  - first:
+      213: 3208836519969650501
+    second: RestAndDead_25
+  - first:
+      213: -87694770419030024
+    second: RestAndDead_26
+  - first:
+      213: -789197370600741360
+    second: RestAndDead_27
+  - first:
+      213: 6047937699356583661
+    second: RestAndDead_28
+  - first:
+      213: 3212782866687771851
+    second: RestAndDead_29
+  - first:
+      213: 4292296760686744767
+    second: RestAndDead_30
+  - first:
+      213: -7508114201738312780
+    second: RestAndDead_31
+  - first:
+      213: -757434421162660818
+    second: RestAndDead_32
+  - first:
+      213: 8310658939194063031
+    second: RestAndDead_33
+  - first:
+      213: 2933488929396073242
+    second: RestAndDead_34
+  - first:
+      213: 1647323904985793791
+    second: RestAndDead_35
+  - first:
+      213: 2271790538686512407
+    second: RestAndDead_36
+  - first:
+      213: -7146281087399620682
+    second: RestAndDead_37
+  - first:
+      213: 8240827139980640644
+    second: RestAndDead_38
+  - first:
+      213: 5270110547532400815
+    second: RestAndDead_39
+  - first:
+      213: 1705670555094141711
+    second: RestAndDead_40
+  - first:
+      213: -2315389610714247874
+    second: RestAndDead_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RestAndDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d700eec273641ff0800000000000000
+      internalID: -66318749755504688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf9e085664bef2a0800000000000000
+      internalID: -6701720843823702097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f206001621ff910800000000000000
+      internalID: 1873236177836846848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9c370117a7efe40800000000000000
+      internalID: 5692121605068802464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05967ec8ee55b1e0800000000000000
+      internalID: -2182734090401835766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cfd04d7297d8f20800000000000000
+      internalID: 3426528103467187275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68162b04bbd29af0800000000000000
+      internalID: -391008651300169618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e5ae19bdd3635e0800000000000000
+      internalID: -1930287377026490852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestAndDead_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad0f2cb76c44b5e0800000000000000
+      internalID: -1894805534793593432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 080d7828c51f08c589436ac56bb6d0a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RestAndDead_0: -66318749755504688
+      RestAndDead_1: -6701720843823702097
+      RestAndDead_2: 1873236177836846848
+      RestAndDead_3: 5692121605068802464
+      RestAndDead_4: -2182734090401835766
+      RestAndDead_5: 3426528103467187275
+      RestAndDead_6: -391008651300169618
+      RestAndDead_7: -1930287377026490852
+      RestAndDead_8: -1894805534793593432
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

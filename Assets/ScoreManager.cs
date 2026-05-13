@@ -10,6 +10,8 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public int totalFish = 3;
 
+    private IntermissionManager intermissionManager;
+
     // Set this in Inspector (last level number)
     public int finalLevelIndex = 2;
 
@@ -17,11 +19,18 @@ public class ScoreManager : MonoBehaviour
     [Tooltip("Enable when fish are spawned dynamically. Win by reaching targetScore instead of catching all fish.")]
     public bool spawnerMode = false;
     public int targetScore = 10;
+    [HideInInspector] public bool endlessMode = false;
+
+    [Header("Debug")]
+    [Tooltip("Starting fish count. Set above 0 to skip ahead for testing.")]
+    public int startScore = 0;
 
     void Start()
     {
-        score = 0;
+        score = startScore;
         gameEnded = false;
+
+        intermissionManager = GetComponent<IntermissionManager>();
 
         if (!spawnerMode)
             totalFish = GameObject.FindGameObjectsWithTag("Fish").Length;
@@ -40,6 +49,15 @@ public class ScoreManager : MonoBehaviour
 
         UpdateScore();
 
+        intermissionManager?.TryShow(score);
+
+        if (intermissionManager == null || !intermissionManager.IsShowing)
+            CheckWinCondition();
+    }
+
+    public void CheckWinCondition()
+    {
+        if (endlessMode) return;
         bool winConditionMet = spawnerMode ? score >= targetScore : totalFish <= 0;
         if (winConditionMet)
             LoadNextLevel();
