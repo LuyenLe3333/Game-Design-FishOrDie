@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: f3a055c71d7aa2f769fd098ea6e90515
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1441535721144565593
+    second: Animated Water-Splash-Sheet-192x1344_0
+  - first:
+      213: -9033548642340442096
+    second: Animated Water-Splash-Sheet-192x1344_1
+  - first:
+      213: -7057970574769770590
+    second: Animated Water-Splash-Sheet-192x1344_2
+  - first:
+      213: -3294332696189695864
+    second: Animated Water-Splash-Sheet-192x1344_3
+  - first:
+      213: -6218349887327845688
+    second: Animated Water-Splash-Sheet-192x1344_4
+  - first:
+      213: -4112588883219683941
+    second: Animated Water-Splash-Sheet-192x1344_5
+  - first:
+      213: 2038714662622536280
+    second: Animated Water-Splash-Sheet-192x1344_6
+  - first:
+      213: 536778648125017652
+    second: Animated Water-Splash-Sheet-192x1344_7
+  - first:
+      213: -4063432001104394634
+    second: Animated Water-Splash-Sheet-192x1344_8
+  - first:
+      213: 550881916994004213
+    second: Animated Water-Splash-Sheet-192x1344_9
+  - first:
+      213: -2658618358196078647
+    second: Animated Water-Splash-Sheet-192x1344_10
+  - first:
+      213: -2266477127365768364
+    second: Animated Water-Splash-Sheet-192x1344_11
+  - first:
+      213: 7491221741688465959
+    second: Animated Water-Splash-Sheet-192x1344_12
+  - first:
+      213: -7469191948090027128
+    second: Animated Water-Splash-Sheet-192x1344_13
+  - first:
+      213: -3679750427967065928
+    second: Animated Water-Splash-Sheet-192x1344_14
+  - first:
+      213: -3687395595039918253
+    second: Animated Water-Splash-Sheet-192x1344_15
+  - first:
+      213: 7553089735984300116
+    second: Animated Water-Splash-Sheet-192x1344_16
+  - first:
+      213: 1700737513574812224
+    second: Animated Water-Splash-Sheet-192x1344_17
+  - first:
+      213: 3130932743450218416
+    second: Animated Water-Splash-Sheet-192x1344_18
+  - first:
+      213: -6723289181414004320
+    second: Animated Water-Splash-Sheet-192x1344_19
+  - first:
+      213: 6250809361910216695
+    second: Animated Water-Splash-Sheet-192x1344_20
+  - first:
+      213: 7139498900084130148
+    second: Animated Water-Splash-Sheet-192x1344_21
+  - first:
+      213: 4490578225518398555
+    second: Animated Water-Splash-Sheet-192x1344_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated Water-Splash-Sheet-192x1344_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0442236e2aefbe0800000000000000
+      internalID: -1441535721144565593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water-Splash-Sheet-192x1344_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010f5102f5362a280800000000000000
+      internalID: -9033548642340442096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water-Splash-Sheet-192x1344_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af20bf282d0d0e90800000000000000
+      internalID: -7057970574769770590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water-Splash-Sheet-192x1344_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88888afeddd2842d0800000000000000
+      internalID: -3294332696189695864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water-Splash-Sheet-192x1344_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2cbb449bbf3b9a0800000000000000
+      internalID: -6218349887327845688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water-Splash-Sheet-192x1344_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95687c33362de6c0800000000000000
+      internalID: -4112588883219683941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated Water-Splash-Sheet-192x1344_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8522fff1f28fa4c10800000000000000
+      internalID: 2038714662622536280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f928f6623e2a0b419c051ae9f114c0b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":192.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Animated Water-Splash-Sheet-192x1344_0: -1441535721144565593
+      Animated Water-Splash-Sheet-192x1344_1: -9033548642340442096
+      Animated Water-Splash-Sheet-192x1344_2: -7057970574769770590
+      Animated Water-Splash-Sheet-192x1344_3: -3294332696189695864
+      Animated Water-Splash-Sheet-192x1344_4: -6218349887327845688
+      Animated Water-Splash-Sheet-192x1344_5: -4112588883219683941
+      Animated Water-Splash-Sheet-192x1344_6: 2038714662622536280
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
