@@ -252,6 +252,7 @@ MonoBehaviour:
   hook: {fileID: 1397622085}
   rodTip: {fileID: 1085130407}
   reelSound: {fileID: 35244390}
+  splashSound: {fileID: 0}
   splashPrefab: {fileID: 4919348046519789275, guid: f7952ad5eb734a709bb58ea4f5f9c1d3, type: 3}
   castChargeTime: 4
   castMaxSpeed: 30
@@ -277,6 +278,8 @@ MonoBehaviour:
   hookCatch: {fileID: 1397622086}
   hookObject: {fileID: 1397622084}
   fishingLine: {fileID: 607448766}
+  gameTimer: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!82 &35244390
 AudioSource:
   m_ObjectHideFlags: 0
@@ -498,6 +501,8 @@ MonoBehaviour:
   finalLevelIndex: 2
   spawnerMode: 1
   targetScore: 20
+  endlessMode: 0
+  startScore: 0
 --- !u!114 &85662678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1556,6 +1561,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BearController
   gameTimer: {fileID: 85662678}
+  bearSpeechBubble: {fileID: 0}
+  speechBubble3: {fileID: 0}
+  fisherManAnimator: {fileID: 0}
+  roarSound: {fileID: 0}
 --- !u!114 &826671235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1569,6 +1578,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BearController
   gameTimer: {fileID: 0}
+  bearSpeechBubble: {fileID: 0}
+  speechBubble3: {fileID: 0}
+  fisherManAnimator: {fileID: 0}
+  roarSound: {fileID: 0}
 --- !u!1 &855506546
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,6 +3045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpeechBubble
   displayDuration: 3
   fadeDuration: 0.4
+  showOnStart: 1
 --- !u!114 &1734552026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3299,6 +3313,10 @@ PrefabInstance:
     - target: {fileID: 6264270911701265524, guid: e7c391af4b38a8198ab83a193abfacd4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7063155983771317440, guid: e7c391af4b38a8198ab83a193abfacd4, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7063155983771317440, guid: e7c391af4b38a8198ab83a193abfacd4, type: 3}
       propertyPath: MinDistance
