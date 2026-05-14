@@ -62,6 +62,9 @@ public class GameTimer : MonoBehaviour
     IEnumerator LoseGameDelay()
     {
         yield return new WaitForSeconds(4f);
-        SceneManager.LoadScene("YouLoseScene");
+        if (SceneFader.Instance != null)
+            SceneFader.Instance.FadeTo("YouLoseScene");
+        else
+            SceneManager.LoadScene("YouLoseScene");
     }
 }

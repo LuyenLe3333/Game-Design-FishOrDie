@@ -10,6 +10,7 @@ public class IntermissionManager : MonoBehaviour
     public GameObject scoreTextObject;
     public GameTimer gameTimer;
     public HookCatch hookCatch;
+    public BearController bearController;
 
     [Header("Settings")]
     public int triggerScore = 20;
@@ -60,7 +61,19 @@ public class IntermissionManager : MonoBehaviour
 
     void OnImDonePressed()
     {
-        SceneManager.LoadScene("GameOverScene");
+        intermissionBubble.SetActive(false);
+        if (bearController != null)
+            bearController.TriggerKillSequence();
+        else
+            GoToGameOver();
+    }
+
+    public static void GoToGameOver()
+    {
+        if (SceneFader.Instance != null)
+            SceneFader.Instance.FadeTo("GameOverScene");
+        else
+            SceneManager.LoadScene("GameOverScene");
     }
 
     public void HideIntermission()

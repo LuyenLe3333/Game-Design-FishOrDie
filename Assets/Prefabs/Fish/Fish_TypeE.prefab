@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7068076485131820023}
   - component: {fileID: 1977955603957051973}
   - component: {fileID: 3983585608600564348}
+  - component: {fileID: 6580007962804123719}
   m_Layer: 0
   m_Name: Fish_TypeE
   m_TagString: Fish
@@ -111,6 +112,9 @@ MonoBehaviour:
   maxX: 8
   minY: -3.5
   maxY: 0.7
+  fleeProbability: 0.5
+  fleeDetectionRadius: 2.5
+  fleeSpeedMultiplier: 2
 --- !u!58 &3983585608600564348
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -147,3 +151,25 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.06
+--- !u!95 &6580007962804123719
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141036430626584110}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f40f62531c6416fb0989254d9695c00a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

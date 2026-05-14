@@ -6,6 +6,7 @@ public class FishingRod : MonoBehaviour
     public Transform hook;
     public Transform rodTip;
     public AudioSource reelSound;
+    public AudioSource splashSound;
     public GameObject splashPrefab;
 
     [Header("Cast")]
@@ -29,6 +30,8 @@ public class FishingRod : MonoBehaviour
     public float ChargeFraction => castChargeTime > 0 ? chargeTimer / castChargeTime : 0f;
     public bool IsCharging => state == State.Charging;
     public bool IsHookOut => state == State.InAir || state == State.InWater || state == State.Reeling;
+    public bool IsAtRod => state == State.AtRod;
+    public bool IsHookAtBottom => state == State.InWater && hook != null && hook.position.y <= bottomLimit + 0.05f;
 
     private float chargeTimer;
     private Vector2 hookVelocity;
@@ -105,6 +108,8 @@ public class FishingRod : MonoBehaviour
             state = State.InWater;
             if (splashPrefab != null)
                 Instantiate(splashPrefab, new Vector3(hook.position.x, waterSurfaceY, 0f), Quaternion.identity);
+            if (splashSound != null)
+                splashSound.Play();
         }
         else if (hook.position.y < bottomLimit)
         {

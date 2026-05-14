@@ -8,6 +8,7 @@ public class FisherManAnimator : MonoBehaviour
     public GameObject hookObject;
     public LineRenderer fishingLine;
     public GameTimer gameTimer;
+    public AudioSource deathSound;
 
     private Animator animator;
     private bool deathTriggered = false;
@@ -23,12 +24,21 @@ public class FisherManAnimator : MonoBehaviour
         if (fishingLine != null) fishingLine.enabled = false;
     }
 
+    public void TriggerDeath()
+    {
+        if (deathTriggered) return;
+        deathTriggered = true;
+        animator.Play("FisherManDeath", 0, 0f);
+        if (deathSound != null) deathSound.Play();
+    }
+
     void Update()
     {
         if (!deathTriggered && gameTimer != null && gameTimer.timeRemaining <= 0)
         {
             deathTriggered = true;
             animator.Play("FisherManDeath", 0, 0f);
+            if (deathSound != null) deathSound.Play();
             return;
         }
 

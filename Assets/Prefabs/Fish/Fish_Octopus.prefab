@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7688095727366231974}
   - component: {fileID: 2805828429754359724}
   - component: {fileID: 3365895109829565523}
+  - component: {fileID: 6538800629219666059}
   m_Layer: 0
   m_Name: Fish_Octopus
   m_TagString: Fish
@@ -111,6 +112,9 @@ MonoBehaviour:
   maxX: 8
   minY: -3.5
   maxY: 0.7
+  fleeProbability: 0.5
+  fleeDetectionRadius: 2.5
+  fleeSpeedMultiplier: 2
 --- !u!58 &3365895109829565523
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -147,3 +151,25 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.09
+--- !u!95 &6538800629219666059
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8512093791383032655}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a34b6c576256a662fb29aebc9cdd6d5f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
