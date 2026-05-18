@@ -1,5 +1,4 @@
 ## FishOrDie (Unity 2D Game Development)
-
 A 2D Unity game developed in a 3-person team using C# and Git version control.
 
 ## Key Features
